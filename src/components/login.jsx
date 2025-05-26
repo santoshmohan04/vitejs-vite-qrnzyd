@@ -1,11 +1,12 @@
 import '../styles/login.css';
+import imgavatar from '../assets/img_avatar2.png'
 
 function LoginPage() {
   return (
     <div id="id01" className="login-form">
-      <form className="login-form-content animate">
+      <form className="login-form-content">
         <div className="imgcontainer">
-          <img src="img_avatar2.png" alt="Avatar" className="avatar" />
+          <img src={imgavatar} alt="Avatar" className="avatar" />
         </div>
 
         <div className="container">
